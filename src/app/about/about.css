@@ -1,0 +1,77 @@
+.mainabout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* row-gap: 24px; */
+  padding: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  width: 100%;
+  /* max-width: 420px; */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+}
+.h1_subpara {
+  margin: 20px;
+  font-weight: 300;
+}
+.atitle{
+  font-size: 40px;
+  font-weight: 600;
+  color: #333;
+  margin-left: 20px;
+}
+.leftside{
+  max-width: 50%;
+}
+rightside{
+  max-width: 50%;
+}
+.profile-image{
+  width: 65%;
+
+  border-radius: 50%;
+  margin: 20px;
+}
+a.sociallink{
+  background-color: rgb(9, 13, 10 , .5);
+  margin: 40x;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+a:hover {
+  color: #c5edd0;
+  text-shadow: 0 0 5px black;
+  background-color: rgb(9, 13, 10 , .7);
+}
+p {
+  padding:5px;
+  margin-bottom:30px;
+  background-color: rgb(9, 13, 10 , .1);
+  border-radius: 5px;
+  width:fit-content;
+  max-width: 75%;
+}
+hr{
+  max-width: 75%;
+  margin-top:35px;
+  margin-bottom: 35px;
+}
+img{
+  display:inline-block;
+  width:30px;
+  margin-right:5px;
+
+  padding:5px;
+  border-radius: 5px;
+}
+.mail {
+  width:30px;
+
+}
+.x
+{
+  width:28px;
+}

@@ -1,0 +1,18 @@
+.Mainarea{
+  display: flex;
+  margin-bottom:40px;
+  justify-content: space-between;
+}
+.headerkinda{
+  margin: 0px 60px;
+  margin-left:7em;
+}
+p{
+  max-width: 500px;
+  padding-bottom: 30px;
+}
+h1{
+  font-size: 2.5em;
+  padding-bottom:30px;
+
+}

@@ -1,0 +1,26 @@
+.contentholder{
+  display: flex;
+  justify-content: space-between;
+
+}
+.chad{
+  border-radius: 50%;
+  width:100px;
+  height:100px;
+}
+.title{
+  font-size: 50px;
+  font-weight: bold;
+}
+.text-base{
+  max-width: 500px;
+  text-wrap: wrap;
+}
+.headerish{
+  margin-left:13%;
+}
+img{
+  width:25px;
+  display: inline-block;
+  margin:20px;
+}
