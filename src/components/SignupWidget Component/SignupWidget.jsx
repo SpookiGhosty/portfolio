@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/SignupWidget Component/SingupWidget.css';
+import '/workspaces/portfolio/src/components/SignupWidget Component/SingupWidget.css';
 
 const SignupWidget = ({ title, content, simulateNetworkRequestTime }) => {
   const [email, setEmail] = useState('');

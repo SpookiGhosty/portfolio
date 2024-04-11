@@ -1,6 +1,6 @@
 import React, { useEffect , useState } from 'react';
 import PropTypes from 'prop-types';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Theme Switcher/ThemeSwitcher.css';
+import '/workspaces/portfolio/src/components/Theme Switcher/ThemeSwitcher.css';
 
 const ThemeSwitcher = ({ darkClassName = 'dark' }) => {
   const [isDarkMode, setIsDarkMode] = useState(() => {

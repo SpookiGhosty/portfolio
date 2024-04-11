@@ -6,8 +6,8 @@ import FooterComponent from "../../components/Footer component/Footer.jsx"; // R
 import "../../components/Footer component/Footer.css";
 import ArticleCard from "../../components/Article Card component/ArticleCard.jsx";
 import "../../components/Article Card component/ArticleCard.css";
-import ThemeSwitcher from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Theme Switcher/ThemeSwitcher.jsx';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Theme Switcher/ThemeSwitcher.css';
+import ThemeSwitcher from '/workspaces/portfolio/src/components/Theme Switcher/ThemeSwitcher.jsx';
+import '/workspaces/portfolio/src/components/Theme Switcher/ThemeSwitcher.css';
 import './about.css';
 export const AboutPage = {
   title: "Portfolio - About",

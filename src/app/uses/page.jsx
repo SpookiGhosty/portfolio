@@ -8,8 +8,8 @@ import UsesCard from "../../components/Uses Card Component/UsesCard.jsx";
 import "../../components/Uses Card Component/UsesCard.css";
 import UsesSection from "../../components/Uses Section Component/UsesSection.jsx";
 import "../../components/Uses Section Component/UsesSection.css";
-import ThemeSwitcher from '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Theme Switcher/ThemeSwitcher.jsx';
-import '/workspaces/cs220-portfolio-team-3-kaiden-gustavo-thomas/src/components/Theme Switcher/ThemeSwitcher.css';
+import ThemeSwitcher from '/workspaces/portfolio/src/components/Theme Switcher/ThemeSwitcher.jsx';
+import '/workspaces/portfolio/src/components/Theme Switcher/ThemeSwitcher.css';
 import './Uses.css';
 
 export const UsesPage = {
