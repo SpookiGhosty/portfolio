@@ -14,7 +14,7 @@ html.dark .btn {
   margin: 20px;
 }
 
-html.dark {
-  background-color: #7582ff;
-  color: #050617;
+html.dark, html.dark p, html.dark h3, html.dark h2, html.dark h1 {
+  background-color: #383d45;
+  color: #a3b0c4;
 }

@@ -34,20 +34,17 @@ export default function Uses() {
 
   const usesItems = [
     {
-      groupName: "Workstation",
+      groupName: "Fun trinkets I use",
       items: [
-        { title: "Item Name", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu." },
-        { title: "Item Name", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu." },
-        { title: "Item Name", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu." },
-        { title: "Item Name", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu." },
-        { title: "Item Name", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu." },
+        { title: "Pen Flipper", description: "I am practicing flipping pens around my fingers in a very quick-like manner. And a pen flipper has weights on either side that help it flip super easily." },
+        { title: "Kindle", description: "I love my kindle. It enables me to take tons of books with me wherever I go, instead of lugging around tons of heavy books." },
       ],
     },
     {
-      groupName: "Development Tools",
+      groupName: "Fun hobbies",
       items: [
-        { title: "Item Name", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu." },
-        { title: "Item Name", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu." },
+        { title: "Reading", description: "Books have the power to transport us into different worlds. They have the power to share the wisdom of years to youth, to help improve ourselves, and so much more. Reading is important. So yeah." },
+        { title: "Watching old movies", description: "Movies made back in the day were absolutly amazing. This was back when people actually cared about plots, instead of big explosions and special effects to keep peoples attention." },
       ],
     },
   ];
@@ -103,8 +100,8 @@ export default function Uses() {
         <ThemeSwitcher darkClassName="dark" />
       </header>
       <main>
-      <h1 className="hone">Software I use, gadgets I love, and other things I recommend.</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.</p>
+      <h1 className="hone">Random fun things worth talking about</h1>
+      <p>Life is full of random awesoome things. Here are a few things that have caught my attention whilest experiencing life.</p>
         <UsesSection items={usesItems} />
       </main>
       <aside>

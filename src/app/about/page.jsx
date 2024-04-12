@@ -62,23 +62,23 @@ export default function About() {
             content="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..."
             link="/sample-article"
           /> */}
-          <h1 className="atitle"> I'm Jane. I live in New York City, where I develop the future</h1>
-          <p className="h1_subpara">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi...</p>
-          <p className="h1_subpara">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi...</p>
-          <p className="h1_subpara">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi...</p>
-          <p className="h1_subpara">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi...</p>
+          <h1 className="atitle">My name is Thomas Peterson.</h1>
+          <p className="h1_subpara">I am an aspiring software developer by day, and quiet meditator by night. I love learning all about technology and how it continues to evolve and
+              affect the world. I'm facinated by the power of software and how it's reach can be used in so many different ways and in different industries. I'm always willing to work hard and learn new things.</p>
+          <p className="h1_subpara">I am also an old video game modder. I have recently been working on my own rom of an old video game called Super Metroid. The code is in assembly, so it is very confusing, but totally worth it when you see the final product. Although I have yet to complete my first iteration of my rom.</p>
+          <p className="h1_subpara">Thanks for taking the time to read!</p>
 
 
 
         </div>
         <div className="rightside">
 
-          <img src="/JANE PIC.png" alt="Jane Doe" className="profile-image" />
+          <img src="/me.jpg" alt="me" className="profile-image" />
           <p><img className="x" src="./x.png"></img> Follow me on <a href="/" className="sociallink">X</a></p>
-          <p><img src="./gt.png"></img>Follow me on <a href="/" className="sociallink">Github</a></p>
-          <p><img src="./blu.png"></img>Follow me on <a href="/" className="sociallink">LinkedIn</a></p>
+          <p><img src="./gt.png"></img>Check out my projects and follow me on <a href="https://github.com/SpookiGhosty?tab=projects" className="sociallink">Github</a></p>
+          <p><img src="./blu.png"></img>Follow me on <a href="https://www.linkedin.com/in/thomas-peterson-199298296/" className="sociallink">LinkedIn</a></p>
           <hr></hr>
-          <p><img className="mail" src="./mail.png"></img>jane@gmail.com</p>
+          <p><img className="mail" src="./mail.png"></img>thaynepeterson10@gmail.com</p>
           </div>
       </main>
       <aside>

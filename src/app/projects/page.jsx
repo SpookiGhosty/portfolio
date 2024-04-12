@@ -46,11 +46,12 @@ export default function Projects() {
       </header>
       <main>
         <div className="headerkinda">
-          <h1>Things I've made tring to put my dent in the universe.</h1>
+          <h1>Future projects and aspirations I have</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa miet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa mi
+            As I am just starting out on my journey to become a developer, I have a few projects and aspirations in mind
+            that I would like to work on and achieve at some point. Here are a few of them. Since I am just starting
+            out, the main 'project' that I have completed, with a lot of help, is this website. I am very proud of it,
+            and I hope to continue to improve it as I learn more.
           </p>
         </div>
 
@@ -59,55 +60,37 @@ export default function Projects() {
           <div>
             <section>
               <ProjectCard
-                logo="/ensign.png"
-                name="Company"
-                content="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.."
+                logo="/giga.jpg"
+                name="Be proficient using assembly"
+                content="Rom hacking being one of my favorite things to do, I hope to at some point get to a place where I can be proficient enough to create my own hacks without so much help. But being one of the first programming languages, I have a lot of learning to do."
                 link="/project-url"
               />
               {/* Add more ProjectCard components as needed */}
             </section>
-            <ProjectCard
-              logo="/ensign.png"
-              name="Company"
-              content="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.."
-              link="/project-url"
-            />
           </div>
           <div></div>
           <div>
             <section>
               <ProjectCard
-                logo="/ensign.png"
-                name="Company"
-                content="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.."
+                logo="/giga.jpg"
+                name="Work for a cutting edge technology company"
+                content="Just starting out in the field, I do not know exactly where I could end up branching off to. But I hope that it is a cool technology that I can help create, and hopefully, better the world."
                 link="/project-url"
               />
               {/* Add more ProjectCard components as needed */}
             </section>
-            <ProjectCard
-              logo="/ensign.png"
-              name="Company"
-              content="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.."
-              link="/project-url"
-            />
           </div>
           <div></div>
           <div>
             <section>
               <ProjectCard
-                logo="/ensign.png"
-                name="Company"
-                content="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.."
+                logo="/giga.jpg"
+                name="Create a software company at some point."
+                content="This is an extremely lofty goal, I do not even know what I would create the company to do, but I hope that it is something that can help people in some way. I have always wanted to create something that can help people, and I hope that I can do that at some point."
                 link="/project-url"
               />
               {/* Add more ProjectCard components as needed */}
             </section>
-            <ProjectCard
-              logo="/ensign.png"
-              name="Company"
-              content="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.."
-              link="/project-url"
-            />
           </div>
           <div></div>
         </div>

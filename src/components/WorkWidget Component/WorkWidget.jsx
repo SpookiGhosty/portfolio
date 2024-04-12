@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import './WorkWidget.css';
+import PropTypes from "prop-types";
+import "./WorkWidget.css";
 
 const WorkWidget = ({ title, content, experiences }) => {
   return (
@@ -7,26 +7,26 @@ const WorkWidget = ({ title, content, experiences }) => {
       <h2 data-testid="workWidgetTitle">{title}</h2>
       <p data-testid="workWidgetContent">{content}</p>
       <ul>
-      {experiences.map((experience, index) => (
-  <li key={index} data-testid={`workWidgetItem${index}`}>
-    <div className="work-item">
-      <img
-        data-testid={`workWidgetItemLogo${index}`}
-        src={experience.logo}
-        alt={`${experience.organization} Logo`}
-      />
+        {experiences.map((experience, index) => (
+          <li key={index} data-testid={`workWidgetItem${index}`}>
+            <div className="work-item">
+              <img
+                data-testid={`workWidgetItemLogo${index}`}
+                src={experience.logo}
+                alt={`${experience.organization} Logo`}
+              />
               <div className="work-item-content">
                 <h3 data-testid={`workWidgetItemTitle${index}`}>{experience.organization}</h3>
                 <div className="work-item-content-details">
                   <p data-testid={`workWidgetItemContent${index}`}>{experience.jobTitle}</p>
                   <span data-testid={`workWidgetItemDates${index}`}>
-                    {experience.startYear} - {experience.endYear || 'current'}
+                    {experience.startYear} - {experience.endYear || "current"}
                   </span>
                 </div>
               </div>
-              </div>
-  </li>
-))}
+            </div>
+          </li>
+        ))}
       </ul>
     </section>
   );
